@@ -22,17 +22,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
 
   return (
-    <ThemeProvider
-      defaultTheme="dark"
-    >
 
-      <html lang="en">
-        <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-          <PageProgressBar />
-          <Navbar />
-          {children}
-        </body>
-      </html>
-    </ThemeProvider>
+    <html lang="en">
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased scroll-smooth`}>
+        <PageProgressBar />
+        <Navbar />
+        {children}
+      </body>
+    </html>
   );
 }

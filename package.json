@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@lottiefiles/dotlottie-react": "^0.13.5",
+    "@radix-ui/react-separator": "^1.1.8",
+    "@radix-ui/react-slot": "^1.2.4",
     "animejs": "^4.0.2",
     "axios": "^1.9.0",
     "class-variance-authority": "^0.7.1",

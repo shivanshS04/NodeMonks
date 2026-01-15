@@ -97,7 +97,7 @@ export function BeamsBackground({
 
     function drawBeam(ctx: CanvasRenderingContext2D, beam: Beam) {
       ctx.save();
-      ctx.globalCompositeOperation = "lighter"; 
+      ctx.globalCompositeOperation = "lighter";
       ctx.translate(beam.x, beam.y);
       ctx.rotate((beam.angle * Math.PI) / 180);
 
