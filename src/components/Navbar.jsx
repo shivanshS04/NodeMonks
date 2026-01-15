@@ -12,9 +12,9 @@ export default function Navbar() {
                 <Link href={"#landing"} className={`${abril_fatface.className} underline decoration-wavy decoration-amber-500 text-3xl text-white `} >NodeMonks</Link>
             </div>
             <div className="max-sm:hidden w-fit flex gap-4 justify-between items-center">
-                <Link href={'#works'} className=" text-amber-500 hover:text-black hover:decoration-wavy hover:underline decoration-amber-500 bg-zinc-800 transition-all duration-300 hover:bg-white font-medium  py-1 px-4 rounded-full" >Work</Link>
-                <Link href={"#about"} className="text-amber-500 bg-zinc-800 hover:text-black hover:decoration-wavy hover:underline decoration-amber-500 transition-all duration-300 hover:bg-white font-medium py-1 px-4 rounded-full" >About Us</Link>
-                <Link href={"#contact"} className="text-amber-500 hover:text-black hover:decoration-wavy hover:underline decoration-amber-500 bg-zinc-800 transition-all duration-300 hover:bg-white font-medium font-sans py-1 px-4 rounded-full">Contact Us</Link>
+                <Link href={'#works'} className=" text-amber-500 hover:text-black hover:decoration-wavy hover:underline decoration-amber-500 bg-zinc-900 transition-all duration-300 hover:bg-white font-medium  py-1 px-4 rounded-full" >Work</Link>
+                <Link href={"#about"} className="text-amber-500 bg-zinc-900 hover:text-black hover:decoration-wavy hover:underline decoration-amber-500 transition-all duration-300 hover:bg-white font-medium py-1 px-4 rounded-full" >About Us</Link>
+                <Link href={"#contact"} className="text-amber-500 hover:text-black hover:decoration-wavy hover:underline decoration-amber-500 bg-zinc-900 transition-all duration-300 hover:bg-white font-medium font-sans py-1 px-4 rounded-full">Contact Us</Link>
             </div>
         </div>
     )
