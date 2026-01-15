@@ -74,7 +74,7 @@ const Works = () => {
 
                         {/* CTA Buttons */}
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 cursor-pointer">
-                            <Button size="lg" className="h-12 px-8 text-md group bg-amber-500 hover:bg-black hover:text-amber-500 hover:shadow-2xs transition-all duration-300 shadow-amber-500 text-zinc-950 font-bold">
+                            <Button size="lg" className="cursor-pointer h-12 px-8 text-md group bg-amber-500 hover:bg-black hover:text-amber-500 hover:shadow-2xs transition-all duration-300 shadow-amber-500 text-zinc-950 font-bold">
                                 Request a Demo
                                 <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:rotate-315" />
                             </Button>
